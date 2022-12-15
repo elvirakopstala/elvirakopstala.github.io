@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Goodmeal is Lorem Quisquam sapiente ipsum suscipit aliquid rem reprehenderit vero voluptas dolore facilis. Odio accusamus solu">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat&family=Oswald:wght@500&family=Rubik:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/favicon" href="img/leaf-outline.svg" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js">
+  </script>
+
+  <script defer src="js/script.js">
+  </script>
+
+  <title>GoodMeal &mdash; Never eat bad again!</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#">
+      <img class="logo" alt="goodmeal logo" src="img/goodmeals-logo.svg" />
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#meals">Meals</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary primary-center">A healthy meal delivered to your door, every single day</h1>
+          <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sapiente ipsum
+            suscipit aliquid rem reprehenderit vero voluptas dolore facilis. Odio accusamus soluta!
+          </p>
+          <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+
+          <a href="#meals" class="btn btn--outline">Learn more &darr;</a>
+
+          <div class="delivered-meals">
+            <div class="delivered-img">
+              <img src="img/customers/customer-1.jpg" alt="customer photo" />
+              <img src="img/customers/customer-2.jpg" alt="customer photo" />
+              <img src="img/customers/customer-3.jpg" alt="customer photo" />
+              <img src="img/customers/customer-4.jpg" alt="customer photo" />
+              <img src="img/customers/customer-5.jpg" alt="customer photo" />
+              <img src="img/customers/customer-6.jpg" alt="customer photo" />
+            </div>
+            <p class="delivered-text"><span>250,000+</span> meals delivered last year!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="section-meals" id="meals">
+      <div class="container ">
+        <span class="subheading">Meals</span>
+        <h2 class="heading-secondary">
+          With GoodMeal you can chooses from a lot of recipes
+        </h2>
+      </div>
+
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/meals/meal_1.jpg" class="meal-img" alt="Falafel burger" />
+
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">Vegetarian</span>
+            </div>
+            <p class="meal-title">
+              Falafel burger</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <span><strong>750</strong> calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                <span>NutriScore &reg; <strong>74</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <span><strong>4.9</strong> rating (537)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/meals/meal_2.jpg" class="meal-img" alt="Avocado salad" />
+
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegan">Vegan</span>
+              <span class="tag tag--paleo">Paleo</span>
+            </div>
+            <p class="meal-title">
+              Avocado salad</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <span><strong>400</strong> calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                <span>NutriScore &reg; <strong>92</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <span><strong>4.8</strong> rating (441)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="diets">
+          <h3 class="heading-tertiary">Works with any diet:</h3>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>Vegetarian </span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Vegan</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Pescaterian</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Gluten-free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Lactose-free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Keto</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Paleo</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Kid-friendly</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container all-recipes">
+        <a href="#" class="link">
+          See all recipes &rarr;
+        </a>
+      </div>
+    </section>
+
+    <section class="section-testimonials" id="testimonials">
+      <div class="testimonials-container">
+        <span class="subheading">Testimonials</span>
+        <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/dave.jpg" alt="photo of customer" />
+            <blockquote class="testimonial-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maiores numquam a culpa fugiat tenetur!
+
+            </blockquote>
+            <p class="testimonial-name">&mdash; John Doe</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/ben.jpg" alt="photo of customer" />
+            <blockquote class="testimonial-text">
+              Animi sequi, dolores nihil illum quam modi? Quia sit magni architecto fugit maxime. Vero, excepturi!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Ben Smith</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/steve.jpg" alt="photo of customer" />
+            <blockquote class="testimonial-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nesciunt, inventore dicta iste
+              aliquam earum modi, veritatis, eius ab
+
+            </blockquote>
+            <p class="testimonial-name">&mdash; Steven Lorenzo</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/hannah.jpg" alt="photo of customer" />
+            <blockquote class="testimonial-text">
+              id quibusdam placeat vel perferendis assumenda temporibus. Quod, vero illo!
+            </blockquote>
+            <p class="testimonial-name">&mdash; Jane Davis</p>
+          </figure>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-1.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-2.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-3.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-4.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-5.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-6.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-7.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-8.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-9.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-10.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-11.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-12.jpg" alt="photo of beautifully arranged food" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-pricing" id="pricing">
+      <div class="container">
+        <span class="subheading">Pricing</span>
+        <h2 class="heading-secondary">
+          Eating well without breaking the bank
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-cols margin-bottom-md">
+        <div class="pricing-plan pricing-plan--starter">
+          <header class="plan-header">
+            <p class="plan-name">Starter</p>
+            <p class="plan-price">399<span>€</span></p>
+            <p class="plan-text">per month or just 13€ per meal</p>
+          </header>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>1 meal per day </span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>Order from 11am to 9pm </span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>Delivery is free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </ion-icon>
+            </li>
+          </ul>
+          <div class="plan-sign-up">
+            <a href="#" class="btn btn--full">Start eating well</a>
+          </div>
+        </div>
+
+        <div class="pricing-plan pricing-plan--complete">
+          <header class="plan-header">
+            <p class="plan-name">Complete</p>
+            <p class="plan-price">649<span>€</span></p>
+            <p class="plan-text">per month or just 11€ per meal</p>
+          </header>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span><strong>2 meals</strong> per day </span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>Order <strong>24/7</strong></span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>Delivery is free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline">
+              </ion-icon>
+              <span>Get access to latest recipes</span>
+            </li>
+          </ul>
+          <div class="plan-sign-up">
+            <a href="#" class="btn btn--full">Start eating well</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container grid ">
+        <aside class="plan-details">
+          Prices include all taxes. You can cancel at any time. Both plans include the following:
+        </aside>
+      </div>
+
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+          <p class="feature-title">Never cook again</p>
+          <p class="feature-text">You will receive meals every day, all year long, even on major holidays.</p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+          <p class="feature-title">Local and organic</p>
+          <p class="feature-text">Everything that is cooked for you is done so by using locally grown, organic and fresh
+            products.</p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+          <p class="feature-title">No waste</p>
+          <p class="feature-text">All our partners only use reusable containers to package all your meals.</p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+          <p class="feature-title">Pause anytime</p>
+          <p class="feature-text">Not going to be at home? Just pause your subscription, and we refund unused days.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your first meal for free!</h2>
+            <p class="cta-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rerum omnis.
+              Doloribus excepturi quibusdam, alias earum itaque placeat rem inventore unde, eius totam laboriosam.
+            </p>
+
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">
+                  Full Name</label>
+                <input id="full-name" type="text" placeholder="John Smith" required>
+              </div>
+
+              <div>
+                <label for="email">
+                  Email address</label>
+                <input id="email" type="email" placeholder="me@example.com" required>
+              </div>
+
+              <div>
+                <label id="select-where">Where did you hear about us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+            </form>
+          </div>
+          <div class="cta-img-box" role="img" aria-label="Woman enjoying food">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container grid grid--footer">
+      <div class="logo-col">
+        <a href="#" class="footer-logo">
+          <img class="logo" alt="goodmeal logo" src="img/goodmeals-logo.svg" />
+        </a>
+
+        <ul class="social-links">
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">Copyright &copy; <span class="year">2027</span> by GoodMeal, Inc. All rights reserved.</p>
+
+
+      </div>
+
+      <div class="address-col">
+        <p class="footer-heading">Contact us</p>
+        <address class="contacts">
+          <p class="address">21 Brivibas str,<br>Riga, Latvia</p>
+          <p>
+            <a class="footer-link" href="tel:37123456789">+37123456789</a>
+            <br />
+            <a class="footer-link" href="mailto:hello@goodmeal.com"> hello@goodmeal.com</a>
+          </p>
+        </address>
+      </div>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Account</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Create account</a></li>
+          <li><a class="footer-link" href="#">Sign in</a></li>
+          <li><a class="footer-link" href="#">iOS app</a></li>
+          <li><a class="footer-link" href="#">Android app</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Company</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">About GoodMeal</a></li>
+          <li><a class="footer-link" href="#">For Business</a></li>
+          <li><a class="footer-link" href="#">Cooking partners</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Resources</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Recipe directory</a></li>
+          <li><a class="footer-link" href="#">Help center</a></li>
+          <li><a class="footer-link" href="#">Privacy & terms</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
